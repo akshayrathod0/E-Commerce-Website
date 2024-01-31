@@ -1,0 +1,34 @@
+*{
+    margin:0;
+}
+.electronics{
+    background-color: #e2e7e6;
+}
+.electronics h1{
+    padding: 20px;
+}
+.electronics-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.electronics-box-child{
+    background-color: white;
+    width: 21%;
+    /* border: 2px solid black; */
+    height: 400px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 20px;
+}
+.electronics-box-child img{
+    height: 65%;
+    width: 90%;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+}
+.electronics-box-child img:hover{
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}

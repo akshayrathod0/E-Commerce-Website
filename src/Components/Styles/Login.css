@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    min-height: 85vh;
+    align-items: center;
+}
+.login h1{
+    margin-bottom: 40px;
+    color: blue;
+}
+.my-form{   
+    background-color: #E0E0E0 ;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #00000041,inset -20px -20px 60px #ffffff00;
+    border: none;
+}
+.input{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.input:focus{
+    outline: none;
+}
+.submit{
+    font-size: 15px;
+    margin-top: 30px;
+    height: 30px;
+    width: 225px;
+    background-color: rgb(32, 216, 7);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.not-account{
+    margin-top: 20px;
+    border: none;
+    color: blue;
+    background-color:#e0e0e0 ;
+    cursor: pointer;
+    font-size: 15px;
+}
